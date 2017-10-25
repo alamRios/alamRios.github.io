@@ -1,0 +1,20 @@
+footer{
+	position: relative;
+	bottom: 0; 
+	left: 0; 
+	width: 100%; 
+	background-color: black; 
+	color: white; 
+	padding-bottom: 130px; 
+	float: bottom; 
+}
+
+footer div{
+	text-align: center; 
+	padding: 10px; 
+}
+
+#infoContacto{
+	background-color: gray; 
+	padding-top: 15px; 
+}

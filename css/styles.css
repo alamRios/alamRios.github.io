@@ -1,0 +1,23 @@
+* { 
+	box-sizing: border-box; 
+	text-align: justify;
+	transition-duration: 0.5s; 
+	font-family: Tahoma; 
+}
+
+.container{
+	width: 80%; 
+	margin: auto;
+	position: relative; 
+	margin-top: 10px; 
+	margin-bottom: 50px; 
+}
+
+#wrapper{
+	position: fixed; 
+	top: 0; 
+	bottom: 0; 
+	left: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
