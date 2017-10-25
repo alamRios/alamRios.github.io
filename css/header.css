@@ -253,6 +253,8 @@ right: 10px}
 	#esmenu:checked ~ .menu-principal {
 			transform: translateX(0%);
 			width: 100%;
+			overflow-y: scroll;
+			min-height: 20em; 
 	}
 	
 	.menu-principal ul ul a {
