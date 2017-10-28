@@ -15,12 +15,13 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/paper-collapse.min.css">
 </head>
 <body>
 
 	<div id="wrapper">
 	<header>
-	<div class="contenedor"> 
+	<div class="contenedor">
 	<img src="imagenes/escom.png" id="escudo">
 	<input type="checkbox" id="esmenu">
 	<label class="icon-menu" for="esmenu"></label>
@@ -47,12 +48,18 @@
   				</li>
   			<li class="submenu"><a href="#about">ESCOMUNIDAD<span class="icon-down-open"></span></a>
 				<ul>
-  					<li><a href="s1">a</a></li>
-  					<li><a href="s1">b</a></li>
-  					<li><a href="s1"></a></li>
-  					<li><a href="s1"></a></li>
-  					<li><a href="s1"></a></li>
-  					<li><a href="s1"></a></li>
+  					<li>
+  						<a href="s1">Estudiantes</a>
+  					</li>
+  					<li>
+  						<a href="s1">Egresados</a>
+  					</li>
+  					<li>
+  						<a href="s1">Docentes & PAAE</a>
+  					</li>
+  					<li>
+  						<a href="s1">Varios</a>
+  					</li>
   				</ul>
   				</li>
   			<li class="submenu"><a href="#about">SERVICIOS<span class="icon-down-open"></span></a>
@@ -75,8 +82,10 @@
 		<br/>
 		<br/>
 		<ul class="bxslider">
-		  <li><img src="resources/images/1.jpg" /></li>
-		  <li><img src="resources/images/4.png" /></li>
+		  <li><img src="resources/images/slider_1.jpg" /></li>
+		  <li><img src="resources/images/slider_2.jpg" /></li>
+		  <li><img src="resources/images/slider_3.jpg" /></li>
+		  <li><img src="resources/images/slider_4.jpg" /></li>
 		</ul>
 		<div class="container">
 			<!-- Avisos y noticias -->
@@ -90,33 +99,63 @@
 			<!-- Conocenos (Mision, vision, historia, escudo) -->
 			<section>
 				<div class="row">
-					<article class="col-sm-12 col-md-6">
-							<div><h2>Misi&oacute;n</h2></div>
-							<div>
-								Formar profesionales l&iacute;deres en saberes de ingenier&iacute;a, tecnolog&iacute;a y ciencias, de la computaci&oacute;n, con una visi&oacute;n globalizada; as&iacute; como contribuir con investigaci&oacute;n y desarrollo tecnol&oacute;gico para el crecimiento del pa&iacute;s.
+					<div class="col-sl-12 col-md-6">
+						<div class="collapse-card">
+						  <div class="collapse-card__heading">
+						    <div class="collapse-card__title">
+						      <i class="fa fa-bookmark fa-2x fa-fw"></i>
+						      Misi&oacute;n
+						    </div>
+						  </div>
+						  <div class="collapse-card__body">
+						    Formar profesionales l&iacute;deres en saberes de ingenier&iacute;a, tecnolog&iacute;a y ciencias, de la computaci&oacute;n, con una visi&oacute;n globalizada; as&iacute; como contribuir con investigaci&oacute;n y desarrollo tecnol&oacute;gico para el crecimiento del pa&iacute;s.
+						  </div>
+						</div>
+					</div>
+					<div class="col-sl-12 col-md-6">
+						<div class="collapse-card">
+						  <div class="collapse-card__heading">
+						    <div class="collapse-card__title">
+						      <i class="fa fa-binoculars fa-2x fa-fw"></i>
+						      Visi&oacute;n
+						    </div>
+						  </div>
+						  <div class="collapse-card__body">
+						    Ser la Unidad Acad&eacute;mica, l&iacute;der en la formaci&oacute;n de profesionales en ingenier&iacute;a, tecnolog&iacute;a y ciencias, de la computaci&oacute;n, con base en un proceso educativo integral, incluyente y eficiente, que responda a su compromiso social.
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sl-12 col-md-6">
+						<div class="collapse-card">
+						  <div class="collapse-card__heading">
+						    <div class="collapse-card__title">
+						      <i class="fa fa-book fa-2x fa-fw"></i>
+						      Historia
+						    </div>
+						  </div>
+						  <div class="collapse-card__body">
+						    El arribo de las computadoras digitales a M&eacute;xico en los años cincuenta, adem&aacute;s de introducir una herramienta para el procesamiento m&aacute;s r&aacute;pido de datos, propici&oacute; el inicio del desarrollo de formaci&oacute;n de los recursos humanos para la explotaci&oacute;n de &eacute;ste recurso tecnol&oacute;gico.
+										<a href="resources/pdf/historiaESCOM.pdf">Documento</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-sl-12 col-md-6">
+						<div class="collapse-card">
+							<div class="collapse-card__heading">
+								<div class="collapse-card__title">
+									<i class="fa fa-circle fa-2x fa-fw"></i>
+									Escudo
+								</div>
 							</div>
-					</article>
-					<article class="col-sm-12 col-md-6">
-							<div><h2>Visi&oacute;n</h2></div>
-							<div>
-								Ser la Unidad Acad&eacute;mica, l&iacute;der en la formaci&oacute;n de profesionales en ingenier&iacute;a, tecnolog&iacute;a y ciencias, de la computaci&oacute;n, con base en un proceso educativo integral, incluyente y eficiente, que responda a su compromiso social.
-							</div>
-					</article>
-					<article class="col-sm-12 col-md-6">
-							<div><h2>Historia</h2></div>
-							<div>
-								El arribo de las computadoras digitales a M&eacute;xico en los años cincuenta, adem&aacute;s de introducir una herramienta para el procesamiento m&aacute;s r&aacute;pido de datos, propici&oacute; el inicio del desarrollo de formaci&oacute;n de los recursos humanos para la explotaci&oacute;n de &eacute;ste recurso tecnol&oacute;gico.
-								<a href="resources/pdf/historiaESCOM.pdf">Documento</a>
-							</div>
-					</article>
-					<article class="col-sm-12 col-md-6">
-							<div><h2>Escudo</h2></div>
-							<div>
+							<div class="collapse-card__body">
 								En el año de 1994 dos estudiantes de licenciatura en Diseño Gr&aacute;fico de la UAM-Azcapotzalco, apegados a los lineamientos, generaron logotipos e im&aacute;genes, resultando ganador el presentado por la C. Guadalupe G&oacute;mez S&aacute;nchez, durante el Simposium Tecno-Industria ESCOM-95.
-								En la s&eacute;ptima reuni&oacute;n ordinaria del XVI CTCE de la ESCOM, celebrada el 30 de marzo de 2011, ante la presencia del Ing. Apolinar Francisco Cruz L&aacute;zaro, director de la escuela, se aprob&oacute; por mayor&iacute;a la inclusi&oacute;n en el logotipo representativo del plantel la leyenda "Instituto Polit&eacute;cnico Nacional", sin modificar ninguno de los otros elementos.
-								<a href="resources/pdf/escudoESCOM2012_decanatoIPN.pdf">Documento</a>
+							En la s&eacute;ptima reuni&oacute;n ordinaria del XVI CTCE de la ESCOM, celebrada el 30 de marzo de 2011, ante la presencia del Ing. Apolinar Francisco Cruz L&aacute;zaro, director de la escuela, se aprob&oacute; por mayor&iacute;a la inclusi&oacute;n en el logotipo representativo del plantel la leyenda "Instituto Polit&eacute;cnico Nacional", sin modificar ninguno de los otros elementos.
+							<a href="resources/pdf/escudoESCOM2012_decanatoIPN.pdf">Documento</a>
 							</div>
-					</article>
+						</div>
+					</div>
 				</div>
 			</section>
 			<!-- Direccion y ubicacion -->
@@ -151,5 +190,8 @@
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/paper-collapse.min.js"></script>
+
+	<script type="text/javascript" src="js/inicializar_plugins.js"></script>
 </body>
 </html>
