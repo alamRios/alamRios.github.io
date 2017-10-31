@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/paper-collapse.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mapa.css">
 </head>
 <body>
 
@@ -99,7 +100,7 @@
 			<!-- Conocenos (Mision, vision, historia, escudo) -->
 			<section>
 				<div class="row">
-					<div class="col-sl-12 col-md-6">
+					<div class="col-sm-12 col-md-6">
 						<div class="collapse-card">
 						  <div class="collapse-card__heading">
 						    <div class="collapse-card__title">
@@ -112,7 +113,7 @@
 						  </div>
 						</div>
 					</div>
-					<div class="col-sl-12 col-md-6">
+					<div class="col-sm-12 col-md-6">
 						<div class="collapse-card">
 						  <div class="collapse-card__heading">
 						    <div class="collapse-card__title">
@@ -127,7 +128,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sl-12 col-md-6">
+					<div class="col-sm-12 col-md-6">
 						<div class="collapse-card">
 						  <div class="collapse-card__heading">
 						    <div class="collapse-card__title">
@@ -141,7 +142,7 @@
 						  </div>
 						</div>
 					</div>
-					<div class="col-sl-12 col-md-6">
+					<div class="col-sm-12 col-md-6">
 						<div class="collapse-card">
 							<div class="collapse-card__heading">
 								<div class="collapse-card__title">
@@ -176,7 +177,7 @@
 							<b>Tel&eacute;fono:</b> 57296000 Ext. 46188
 						</div>
 						<div class="col-sm-12 col-md-6">
-							<!-- Mapa con ESCOM marcado -->
+							<div id="mapaEscom"></div>
 						</div>
 					</div>
 				</div>
@@ -193,5 +194,9 @@
 	<script type="text/javascript" src="js/paper-collapse.min.js"></script>
 
 	<script type="text/javascript" src="js/inicializar_plugins.js"></script>
+	<script type="text/javascript" src="js/mapa.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcHm924kVTwv9FBVlQ4wbWmZdGpUO5QY8&callback=initMap">
+    </script>
 </body>
 </html>
