@@ -1,10 +1,11 @@
 ul.baraja-container {
 	width: 200px;
-	height: 350px;
+	height: 315px;
 	margin: 0 auto 30px;
 	position: relative;
 	padding: 0;
 	list-style-type: none;
+
 }
 
 ul.baraja-container li {
@@ -15,7 +16,7 @@ ul.baraja-container li {
 	top: 0;
 	left: 0;
 	cursor: pointer;
-	background: #fff;
+	background: #F4F5F7;
 	pointer-events: auto;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
