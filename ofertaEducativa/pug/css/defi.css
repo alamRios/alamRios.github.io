@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+
+header{
+ height:45px;
+ background:#2E86C1;;
+ color:#fff;
+ display:flex;
+ justify-content:flex-end;
+}
+#btn-menu{
+display:none;
+}
+
+header label{
+font-size:30px;
+cursor:pointer;
+display:none;
+}
+
+.menu ul{
+background:#CE852A;
+display:flex;
+list-style:none;
+}
+.menu ul ul{display:none;}
+
+.menu a{
+display:block;
+padding:15px 20px;
+color:#fff;
+text-decoration:none;
+}
+
+menu a:hover{
+background:rgba(0,0,0,0.3);
+}
+
+.menu ul li:hover ul{
+display:block;
+position:absolute;
+
+}
+
+@media(max-width:768px);
+header label{
+display:block;
+
+}
+.menu{
+position:absolute;
+top:150px;
+left:0;
+width:100%;
+transform:translatex(-100%);
+transition:all 0.3s;
+}
+
+.menu ul{
+display:block;
+background:#1C2833;
+}
+
+.menu a span{
+position:absolute;
+right:5px;
+}
+
+#btn-menu:checked ~ .menu{transform:translatex(0%);}
+h1{margin-top: 100px;}
+h1{margin-bottom:40px;}
+
+#contenedor{ position:relative; width:80%; margin:0 auto; }
+
+.centrar{ text-align:right; }
+.imgResponsive{ width:35%; height:auto; max-width:35%;}
+.imgResponsive{text-align:center; }
+.hola{ text-align:center; }
+.cent{ text-align:right; }
+*{ box-sizing:border-box; }
+
+.fila:after{ position:relative; content:""; clear:both; display:table; width:100%; }
+[class *= "col-"]{ position:relative; float:left; padding:10px; }
+
+[class*="col-s"] { width: 100%; }
+
+@media only screen and (min-width: 600px) {
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+}
+
+.mari{margin-bottom:100px;}
+.mari{text-align:center;}
+p{ text-align:justify; }
+a:link{ text-decoration:none; color:BLACK; font-style:italic; }
+
+.pie{ background-color:#2E86C1; color:WHITE; padding-top:.5em;padding-bottom:.5em; }
+.azulmar{ color:#0C79DE ; }
+.guind{ color:#E75339; }
+
+
+@media all and (max-width : 840px) {
+	.imgR{width: 100%;height: 100%;}
+}
+
