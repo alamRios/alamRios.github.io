@@ -82,7 +82,6 @@ span.reference a:hover{
 .book_wrapper p{
 	font-size:16px;
 	margin:5px 5px 5px 15px;
-	color: black;
 }
 .book_wrapper a.article,
 .book_wrapper a.demo{
@@ -159,6 +158,7 @@ a#prev_page_button:hover{
 	-moz-border-radius:20px;
 	-webkit-border-radius:20px;
 	border-radius:20px;
+	
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
 @media(max-width:900px){

@@ -58,7 +58,7 @@ a {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.5);
 	text-transform: uppercase;
-	z-index: 899;
+	z-index: 999;
 	position: relative;
 	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
 }

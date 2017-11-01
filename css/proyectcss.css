@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .centrar{ text-align:center; }
-header{
+body {
 	background: #212121;
 	font-size:22px;
 	line-height: 32px;
@@ -10,31 +10,26 @@ header{
 	padding: 0;
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
-	z-index: 1100;
 	}
 .zelda{
 	color:deepskyblue;
 }
 .blanco{color:white}
 	.imagenR{height: 100%;width: 100%;display: block;margin: 0 auto;}
- header h1 {
-	font-size: 60px;
-	text-align: center;
-	color: #FFF;
-}	
+	
 
-header h3 {
+h3 {
 	font-size: 30px;
 	line-height: 34px;
 	text-align: center;
 	color: #FFF;
 }
 
-header h3 a {
+h3 a {
 	color: #FFF;
 }
 
-header a {
+a {
 	color: #FFF;
 }
 
